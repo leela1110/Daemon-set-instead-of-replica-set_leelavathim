@@ -1,0 +1,14 @@
+Write a common use-case, where you will use a daemon set instead of replica set:
+
+ReplicaSet ensures that the number of pods of an application is running on the correct scale as specified in the conf file. 
+Whereas in the case of DaemonSet it will ensure that one copy of pod defined in our configuration will always be available on every worker node
+DaemonSets are useful for deploying ongoing background tasks that you need to run on all or certain nodes, and which do not require user intervention. 
+like node monitoring daemons like collected
+
+
+
+
+
+
+
+
